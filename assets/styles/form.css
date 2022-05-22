@@ -45,4 +45,48 @@
     .formulario{
         margin: 0 auto;
     }
+
+    .formulario-titulo{
+        font-size: 0.8rem;
+    }
+
+    .email{
+        padding: 5px;
+    }
+
+    .email::placeholder{
+        font-size: 0.68rem;
+    }
+
+    .submit{
+        padding: 5px;
+        font-size: 0.68rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .form{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .formulario-titulo{
+        font-size: 0.8rem;
+    }
+
+    .email{
+        margin: 0 auto;
+        padding: 5px;
+        width: 92%;
+    }
+
+    .email::placeholder{
+        font-size: 0.5rem;
+    }
+
+    .submit{
+        padding: 5px;
+        font-size: 0.68rem;
+        width: 100%;
+    }
 }

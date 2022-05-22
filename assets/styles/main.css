@@ -73,16 +73,32 @@ body{
     }
 
     .container-lado_direito{
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
     .subtitulo-aplicativo{
-        font-size: 22px;
+        font-size: 1.10rem;
+        width: 100%;
     }
 
     .descricao-texto{
-        font-size: 20px;
+        font-size: 1rem;
+        line-height: 1.50rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .subtitulo-aplicativo{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .descricao-texto{
+        font-size: 0.6em;
+        line-height: 1.25rem;
+        width: 100%;
     }
 }
 

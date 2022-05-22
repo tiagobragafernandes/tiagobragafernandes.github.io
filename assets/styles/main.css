@@ -1,0 +1,88 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    background-image: url(/assets/imgs/agrotech.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#body{
+    opacity: 0;
+}
+
+body{
+    height: 100%;
+    max-width: 1024px;
+    min-width: 224px;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container-lado_esquerdo{
+    width: 49%;
+}
+
+.container-lado_direito{
+    background-color: rgba(44, 66, 81, 0.7);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: baseline;
+}
+
+.titulo-aplicativo img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.subtitulo-aplicativo{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    width: 95%;
+}
+
+.descricao-texto{
+    color: white;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 95%;
+}
+
+@media only screen and (max-width: 820px){
+
+    .titulo-aplicativo img{
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .container-lado_esquerdo{
+        display: none;
+    }
+
+    .container-lado_direito{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .subtitulo-aplicativo{
+        font-size: 22px;
+    }
+
+    .descricao-texto{
+        font-size: 20px;
+    }
+}
+

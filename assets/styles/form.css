@@ -1,0 +1,48 @@
+.formulario{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 80%;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.formulario-titulo{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.email{
+    background-color: #c1c1c1;
+    padding: 15px;
+    width: 60%;
+    border: none;
+}
+
+.email::placeholder{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.submit{
+    background-color: #b6c649;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+}
+
+@media only screen and (max-width: 820px){
+    .formulario{
+        margin: 0 auto;
+    }
+}
